@@ -10,8 +10,12 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
           title: Text('I am Rich'),
         ),
-        body: Image(
-          image: NetworkImage('https://w3schools.com/w3css/img_lights.jpg'),
+        body: Container(
+          height: double.infinity,
+          child: Image(
+            image: NetworkImage('https://w3schools.com/w3css/img_lights.jpg'),
+            fit: BoxFit.cover,
+          ),
         ),
       ),
     ),
