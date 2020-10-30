@@ -10,8 +10,7 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
           title: Text('I am Rich'),
         ),
-        body: Container(
-          height: double.infinity,
+        body: Center(
           child: Image(
             image: NetworkImage('https://w3schools.com/w3css/img_lights.jpg'),
             fit: BoxFit.cover,
