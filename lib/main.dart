@@ -12,8 +12,8 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage('https://w3schools.com/w3css/img_lights.jpg'),
-            fit: BoxFit.cover,
+            image: AssetImage('images/diamond.png'),
+            fit: BoxFit.scaleDown,
           ),
         ),
       ),
